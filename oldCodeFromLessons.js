@@ -41,14 +41,20 @@ const isChecked = false,
 console.log(isChecked || !isClose || 'no');
 
 /*
-//                              GITHUB
 
 
-             global
-git config --local user.name "Daniil"
+//GITHUB
 
-//           global
-git config --local user.email example@gmail.com
+
+*/
+
+
+/*
+git init
+
+git config --global user.name "Daniil"
+
+git config --global user.email example@gmail.com
 
 git status
 
@@ -68,8 +74,6 @@ git push
 
 git clone https://github.com/LastStap/testProject.git project_2
 
-
 "askjbvgkjweb"        =>          ctrl + c x2         =>        :wq!
 
 */
-
