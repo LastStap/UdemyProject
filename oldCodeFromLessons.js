@@ -77,3 +77,48 @@ git clone https://github.com/LastStap/testProject.git project_2
 "askjbvgkjweb"        =>          ctrl + c x2         =>        :wq!
 
 */
+/*
+if (1) {
+    console.log('Ok');
+} else {
+    console.log('ERROR');
+};
+
+
+
+if (num < 40) {
+    console.log("Error");
+} else if (num > 100) {
+    console.log('Too much');
+} else {
+    console.log('Ok');
+};
+
+(num === 50) ? console.log('Ok') : console.log('ERROR');
+
+const num = 50;
+
+switch (num) {
+    case 49: 
+        console.log('Wrong');
+        break;
+    case 100: 
+        console.log('Wrong');
+        break;
+    case 51: 
+        console.log('Correct');
+        break;
+    default: 
+        console.log('Not in this time');
+        break;
+};
+*/
+
+const hamburger = 5;
+const fries = 0;
+
+if(hamburger && fries) {
+    console.log('Im full');
+};
+
+console.log((hamburger && fries));
