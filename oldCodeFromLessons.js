@@ -114,11 +114,23 @@ switch (num) {
 };
 */
 
-const hamburger = 5;
-const fries = 0;
+// const hamburger = 5;
+// const fries = 0;
 
-if(hamburger && fries) {
-    console.log('Im full');
-};
+// if(hamburger && fries) {
+//     console.log('Im full');
+// };
 
-console.log((hamburger && fries));
+// console.log((hamburger && fries));
+
+const hamburger = 3;
+const fries = 1;
+const cola = 1;
+
+console.log(hamburger === 3 && cola && fries);
+
+if (hamburger === 3 && cola === 1 && fries) {
+    console.log('All full');
+} else {
+    console.log('All Empty');
+}
